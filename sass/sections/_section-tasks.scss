@@ -1,0 +1,143 @@
+.section-tasks {
+    padding: 80px 0 40px 0;
+    border-bottom: 1px solid #E1E1E1;
+    
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding: 50px 0 20px 0;
+    }
+    
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 50px 0 10px 0;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding: 40px 0;
+    }
+}
+
+.section-tasks__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 115px 0 100px;
+
+    & > * {
+        flex-shrink: 0;
+    }
+    
+    /* Tablet */
+    @media (max-width: 1199px) {
+        padding: 0 0px 0 75px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        padding: 0;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.section-tasks__content {
+    width: 570px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 495px;
+        padding-bottom: 10px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 270px;
+        padding: 7px 0 0 0;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.section-tasks__header {
+    margin-bottom: 30px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+}
+
+.section-tasks__title {
+    margin-bottom: 30px;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
+
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        margin-bottom: 10px;
+    }
+}
+
+
+.section-tasks__text {
+    width: 400px;
+    color: $paragraphColor;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2.14;
+
+    p:not(:last-child){
+        margin-bottom: 15px;
+    } 
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: unset;
+        max-width: 420px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        line-height: 1.71;
+    }
+}
+
+
+.section-tasks__img {
+    /* Tablet */
+    @media (max-width: 1199px) {
+        width: 265px;
+    }
+
+    /* Mobile */
+    @media (max-width: 899px) {
+        width: 270px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+        img {
+            width: 270px;
+            margin: 0 auto;
+        }
+
+    }
+}
