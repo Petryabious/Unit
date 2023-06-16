@@ -91,10 +91,16 @@
 
 .header__buttons-nav-icon {
     flex-shrink: 0;
+    margin-right: 15px;
 }
 
 .header__buttons-search {
     margin-left: auto;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // gap: 15px;
+    
 }
 
 .header__content {
